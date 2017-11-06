@@ -264,3 +264,21 @@
     right: 1px;
     border-radius: 0 3px 3px 0;
 }
+
+[dir="rtl"] .ms-sel-item {
+  float: right!important;
+margin: 1px 0px 1px 5px;
+}
+[dir="rtl"] .ms-ctn input{
+  float: right!important;
+
+}
+
+[dir="rtl"] .ms-res-ctn .ms-res-item{
+  text-align: right;
+}
+
+[dir="rtl"] .ms-ctn .ms-trigger .ms-trigger-ico {
+  margin-right: 8px;
+  margin-left: 0;
+}
